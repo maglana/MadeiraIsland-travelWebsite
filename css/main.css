@@ -138,6 +138,6 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-.header::before {
-  background-color: #eee;
+.header_btn::before {
+  background-color: red;
 }/*# sourceMappingURL=main.css.map */
