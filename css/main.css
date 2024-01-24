@@ -113,15 +113,13 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgba(20, 105, 241, 0.75), rgba(42, 10, 184, 0.75)), url("../picture/portugal-header-640.jpg");
+  background-image: url("../picture/portugal-header-640.jpg");
+  background-position: right;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 .header_heading {
-  font-family: "Dancing Script", cursive;
-  font-size: 4.8rem;
-  font-weight: 300;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .header_text {
   font-size: 1.4rem;
@@ -140,4 +138,29 @@ body {
 }
 .header_btn::before {
   background-color: red;
+}
+
+@media (min-width: 768px) {
+  .white-block {
+    height: 50px;
+    width: 45%;
+  }
+  .header_heading {
+    font-size: 20rem;
+  }
+  .header_text {
+    font-size: 2.2rem;
+  }
+  .header_btn {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .burger-btn {
+    top: 50px;
+    right: 50px;
+  }
+  .header {
+    background-image: url("../picture/portugal-header-920.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
