@@ -324,4 +324,14 @@ body {
 			font-size: 2.2rem;
 		}
 	}
+	.hero-img {
+		padding: 30rem 2em;
+	}
+	&_title {
+		font-size: 7.2rem;
+	}
+	hr {
+		width: 60%;
+		max-width: 900px;
+	}
 }
