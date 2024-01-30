@@ -234,7 +234,7 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&-first {
-				background-image: $light-blue-gradient, url("../picture/portugal.jpg");
+				background-image: $light-blue-gradient, url("../picture/madeira.jpg");
 			}
 			&-second {
 				background-image: $blue-gradient, url("../picture/flower.jpg");
@@ -251,7 +251,7 @@ body {
 				right: 30px;
 				font-size: 1.8rem;
 
-				i{
+				i {
 					margin-right: 0.3em;
 				}
 			}
