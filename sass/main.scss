@@ -272,9 +272,7 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&-title {
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
+				@include islandCardStyles;
 				top: 1.2em;
 				font-size: 2.8rem;
 			}
@@ -295,9 +293,7 @@ body {
 				}
 			}
 			&-btn {
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
+				@include islandCardStyles;
 				bottom: 2em;
 				padding: 1em;
 				border-radius: 8px;
