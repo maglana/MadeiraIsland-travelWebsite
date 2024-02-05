@@ -358,28 +358,6 @@ body {
   background-color: #0fe29c;
 }
 
-@media (min-width: 576px) {
-  .dreams_box {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .dreams_box-text {
-    width: 55%;
-  }
-  .dreams_box-text-right {
-    text-align: right;
-  }
-  .dreams_box-img {
-    width: 40%;
-  }
-  .dreams_box-img-right {
-    order: 1;
-  }
-  .dreams__img {
-    margin-bottom: 0;
-    max-height: 300px;
-  }
-}
 .offers {
   position: relative;
   background-image: url("../picture/portugal-4827423_1280.jpg");
@@ -406,6 +384,8 @@ body {
 }
 .offers_option-info {
   padding: 2em;
+  background-color: #fff;
+  z-index: 10;
 }
 .offers_option-heading {
   margin-bottom: 0.5em;
@@ -431,6 +411,52 @@ body {
   background-color: #164dcc;
 }
 
+@media (min-width: 576px) {
+  .dreams_box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dreams_box-text {
+    width: 55%;
+  }
+  .dreams_box-text-right {
+    text-align: right;
+  }
+  .dreams_box-img {
+    width: 40%;
+  }
+  .dreams_box-img-right {
+    order: 1;
+  }
+  .dreams__img {
+    margin-bottom: 0;
+    max-height: 300px;
+  }
+  .offers_option {
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .offers_option-img {
+    width: 50%;
+    height: auto;
+  }
+  .offers_option-img-right {
+    order: 1;
+  }
+  .offers_option-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .offers_option-heading {
+    margin-bottom: 0.5em;
+    font-size: 3.6rem;
+  }
+  .offers_option-btn {
+    padding: 1em;
+  }
+}
 @media (min-width: 768px) {
   .white-block {
     height: 50px;
@@ -506,6 +532,14 @@ body {
   .hero-img hr {
     width: 60%;
     max-width: 900px;
+  }
+  .offers .option-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+  }
+  .offers .option-text {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
