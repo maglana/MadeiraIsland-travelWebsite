@@ -358,6 +358,59 @@ body {
   background-color: #0fe29c;
 }
 
+.offers {
+  position: relative;
+  background-image: url("../picture/portugal-4827423_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.offers .section-heading {
+  color: #fff;
+}
+.offers_option {
+  margin: 1em 0;
+  box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.18);
+  background-color: #fff;
+  overflow: hidden;
+}
+.offers_option-img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+.offers_option-img:hover {
+  transform: scale(1.1);
+}
+.offers_option-info {
+  padding: 2em;
+  background-color: #fff;
+  z-index: 10;
+}
+.offers_option-heading {
+  margin-bottom: 0.5em;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.offers_option-text {
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  color: #2e2e2e;
+}
+.offers_option-btn {
+  margin-top: 1em;
+  padding: 0.8em;
+  width: 100%;
+  color: #fff;
+  background-color: #1755e7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.offers_option-btn::before {
+  background-color: #164dcc;
+}
+
 @media (min-width: 576px) {
   .dreams_box {
     flex-direction: row;
@@ -378,6 +431,30 @@ body {
   .dreams__img {
     margin-bottom: 0;
     max-height: 300px;
+  }
+  .offers_option {
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .offers_option-img {
+    width: 50%;
+    height: auto;
+  }
+  .offers_option-img-right {
+    order: 1;
+  }
+  .offers_option-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .offers_option-heading {
+    margin-bottom: 0.5em;
+    font-size: 3.6rem;
+  }
+  .offers_option-btn {
+    padding: 1em;
   }
 }
 @media (min-width: 768px) {
@@ -455,6 +532,14 @@ body {
   .hero-img hr {
     width: 60%;
     max-width: 900px;
+  }
+  .offers .option-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+  }
+  .offers .option-text {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
