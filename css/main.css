@@ -411,6 +411,32 @@ body {
   background-color: #164dcc;
 }
 
+.reviews_box {
+  position: relative;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(46, 50, 226, 0.8862745098);
+}
+.reviews_box-img {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.reviews_box-img img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.reviews_box-quote {
+  margin-bottom: 1em;
+  font-size: 3rem;
+  color: #1755e7;
+}
+
 @media (min-width: 576px) {
   .dreams_box {
     flex-direction: row;
