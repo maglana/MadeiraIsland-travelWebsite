@@ -416,7 +416,7 @@ body {
   margin: 2em;
   padding: 2em;
   border-radius: 8px;
-  box-shadow: 3px 3px 10px rgba(46, 50, 226, 0.8862745098);
+  box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.18);
 }
 .reviews_box-img {
   position: absolute;
