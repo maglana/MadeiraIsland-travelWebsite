@@ -436,60 +436,6 @@ body {
   font-size: 3rem;
   color: #1755e7;
 }
-.reviews_box-text {
-  margin-bottom: 1em;
-  font-size: 1.4rem;
-  color: #2e2e2e;
-}
-
-.contact {
-  position: relative;
-  background-color: #eee;
-  overflow: hidden;
-}
-.contact .white-block-left {
-  background-color: #2e2e2e;
-}
-.contact_form, .contact_form-top {
-  display: flex;
-  flex-direction: column;
-}
-.contact_form-label {
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-.contact_form-input {
-  margin-bottom: 2em;
-  padding: 0.6em 1.2em;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.6rem;
-}
-.contact_form-textarea {
-  margin-bottom: 2em;
-  padding: 0.6em 1.2em;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.6rem;
-  max-width: 100%;
-  min-width: 100%;
-  width: 100%;
-  min-height: 150px;
-}
-.contact_form-btn {
-  align-self: flex-end;
-  padding: 1em;
-  width: 100%;
-  max-width: 300px;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  background-color: #1755e7;
-  cursor: pointer;
-}
-.contact_form-btn::before {
-  background-color: #164dcc;
-}
 
 @media (min-width: 576px) {
   .dreams_box {
