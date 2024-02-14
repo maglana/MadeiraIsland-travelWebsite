@@ -391,58 +391,48 @@ body {
 		font-size: 3rem;
 		color: $main-color;
 	}
-	&_box-text {
-		margin-bottom: 1em;
-		font-size: 1.4rem;
-		color: $dark;
-	}
 }
-//contact
-.contact {
-	position: relative;
-	background-color: $light-white;
-	overflow: hidden;
+//footer
+.footer {
+	color: $pure-white;
+	background-color: $dark;
 
-	.white-block-left {
-		background-color: $dark;
+	.wrapper {
+		padding: 6em 2em 2em;
 	}
-	&_form,
-	&_form-top {
-		display: flex;
-		flex-direction: column;
+	&_box {
+		font-size: 1.4rem;
 	}
-	&_form-label {
-		margin-bottom: 0.5em;
+	&_box-desktop {
+		display: none;
+	}
+	&_box-title {
+		margin-bottom: 1em;
+		font-size: 3rem;
 		text-transform: uppercase;
 	}
-	&_form-input {
-		@include contactForm;
+	&_box-social {
+		margin: 2em 0 1em;
 	}
-	&_form-textarea {
-		@include contactForm;
-
-		max-width: 100%;
-		min-width: 100%;
-		width: 100%;
-		min-height: 150px;
-	}
-	&_form-btn {
-		align-self: flex-end;
-		padding: 1em;
-		width: 100%;
-		max-width: 300px;
+	&_box-link {
+		padding: 0 0.3em;
+		font-size: 3.6rem;
 		color: $pure-white;
-		border: none;
-		border-radius: 8px;
-		background-color: $main-color;
-		cursor: pointer;
+		text-decoration: none;
+		transition: color 0.3s;
 
-		&::before {
-			background-color: $secondary-color;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:hover {
+			color: $light-white;
 		}
 	}
+	&_bottom-text {
+		padding: 2em;
+		text-align: center;
+	}
 }
-
 //responsywnosc
 
 @media (min-width: 576px) {
@@ -540,6 +530,36 @@ body {
 		&_card {
 			margin: 1em;
 			width: 45%;
+		}
+	}
+	.footer {
+		&_boxes {
+			display: flex;
+			justify-content: space-between;
+		}
+		&_box-desktop {
+			display: block;
+		}
+		&_box {
+			margin: 0 2em;
+			width: 25%;
+			&:first-child {
+				width: 50%;
+			}
+		}
+		&_box-title {
+			font-size: 2.4rem;
+		}
+		&_box-list {
+			list-style: none;
+		}
+		&_box-list-item {
+			margin-bottom: 1em;
+
+			a {
+				color: $light-white;
+				text-decoration: none;
+			}
 		}
 	}
 }
