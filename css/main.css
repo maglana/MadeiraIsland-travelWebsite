@@ -437,6 +437,42 @@ body {
   color: #1755e7;
 }
 
+.footer {
+  color: #fff;
+  background-color: #2e2e2e;
+}
+.footer .wrapper {
+  padding: 6em 2em 2em;
+}
+.footer_box {
+  font-size: 1.4rem;
+}
+.footer_box-title {
+  margin-bottom: 1em;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.footer_box-social {
+  margin: 2em 0 1em;
+}
+.footer_box-link {
+  padding: 0 0.3em;
+  font-size: 3.6rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer_box-link:first-child {
+  padding-left: 0;
+}
+.footer_box-link:hover {
+  color: #eee;
+}
+.footer_bottom-text {
+  padding: 2em;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .dreams_box {
     flex-direction: row;
